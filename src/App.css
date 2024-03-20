@@ -1,0 +1,30 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button{
+  width: 25%;
+  background-color: blue;
+  font-size: 22px;
+  margin: 20px 0;
+  padding: 8px 0;
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: white;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  .image{
+    width: 25%;
+    margin: 0 15px;
+  }
+  img{
+    width: 100%;
+    border: 2px solid rgb(231, 231, 231);
+    padding: 8px;
+  }
+}
